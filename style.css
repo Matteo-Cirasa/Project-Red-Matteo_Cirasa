@@ -1,0 +1,118 @@
+*{
+    font-family: "Rajdhani", sans-serif;}
+    
+    :root{
+        --rosso: darkred;
+        --rosa: #C67F7F;
+        --bianco: #ececec;
+        --grigio: #7f7f7f;
+    }
+    
+    a{
+        text-decoration: none;
+        color:var(--grigio)
+    }
+    
+    li{
+        padding: 0;
+        list-style: none;
+    }
+    
+    h1, h2, h3{
+        font-family: Nova square;
+        color: var(--rosso);
+    }
+    
+    .titolo{
+        padding-top: 200px;
+    }
+    
+    h1{
+        font-size: 70px;
+        letter-spacing: 35px;
+    }
+    
+    .logo{
+        width: 250px;
+    }
+    
+    .cit{
+        color: var(--grigio);
+        text-align:center;
+        /* line-height: 1; */
+    
+    }
+    
+    strong{
+        color: var(--rosso);
+    }
+    
+    .mountains{
+        background-repeat: no-repeat;
+        background:url(./media/mountains2.png), linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.145)), url(./media/switzerland-862870_1920.jpg) ;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .section1{
+        background-color: var(--bianco);
+    }
+    
+    .icon{
+        color: var(--rosso);
+    }
+    
+    .bottone{
+        font-size: 25px;
+        color: var(--bianco);
+        border: none;
+        background-color: var(--rosso);
+    }
+    
+    .trees2{
+        background-image:url(./media/trees2.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .section2{
+        background: url(./media/single.png);
+        background-repeat: no-repeat;
+        background-size:40%;
+        background-position: bottom right;
+    }
+    
+    .section3{
+        height: 145rem;
+        background-color: var(--bianco) !important;
+        background: url(./media/other.png);
+        background-repeat: no-repeat;
+        background-size:100%;
+        background-position: bottom;
+    }
+    
+    .lil-pics{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        border: 6px solid var(--rosso);
+        padding: 8px;
+    }
+    
+    i{
+        color: var(--rosso);
+    }
+    
+    .end-pics{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        border: 6px solid var(--rosso);
+        padding: 8px;
+    }
+    
+    footer{
+        background-color: var(--rosso);
+        color: white;
+    }
